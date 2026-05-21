@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>01acabe4-bdd9-4944-9fc4-4507e6539577</UserSecretsId>
+    <RazorCompileOnBuild>false</RazorCompileOnBuild>
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
+    <Platforms>AnyCPU;x86;x86</Platforms>
+  </PropertyGroup>
+
+ 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.0-preview1-20180920-03" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.MsgPack" Version="1.0.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Export\" />
+    <Folder Include="FileUpload\" />
+    <Folder Include="FileUpload\data\test_images\NV00020\" />
+    <Folder Include="FileUpload\TrainImage\" />
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRM.Common\HRM.Common.csproj" />
+    <ProjectReference Include="..\HRM.Document\HRM.Document.csproj" />
+    <ProjectReference Include="..\HRM.Models\HRM.Models.csproj" />
+    <ProjectReference Include="..\HRM.Redis\HRM.Redis.csproj" />
+    <ProjectReference Include="..\HRM.Services.Cores\HRM.Services.Cores.csproj" />
+    <ProjectReference Include="..\HRM.Services.Projects\HRM.Services.Projects.csproj" />
+    <ProjectReference Include="..\HRM.Common\HRM.Common.csproj" />
+    <ProjectReference Include="..\HRM.Redis\HRM.Redis.csproj" />
+    <ProjectReference Include="..\HRM.Models\HRM.Models.csproj" />
+    <ProjectReference Include="..\HRM.Services.Cores\HRM.Services.Cores.csproj" />
+    <ProjectReference Include="..\HRM.Services.Projects\HRM.Services.Projects.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

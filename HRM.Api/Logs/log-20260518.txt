@@ -1,0 +1,30 @@
+2026-05-18T21:49:38.1987590+07:00  [INF] Starting Detection version "0.0.0.0" (9fee71dd)
+2026-05-18T21:49:38.3907410+07:00  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2026-05-18T21:49:50.7036860+07:00  [INF] Starting Detection version "0.0.0.0" (9fee71dd)
+2026-05-18T21:49:50.8368940+07:00  [INF] Now listening on: "http://localhost:5002" (d826f4b8)
+2026-05-18T21:49:50.8387170+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-05-18T21:49:50.8388170+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2026-05-18T21:49:50.8388400+07:00  [INF] Content root path: "/Users/mac/Downloads/do-an-2024-main/source_code/api/HRM.Api" (b5d60022)
+2026-05-18T21:50:18.3694280+07:00 0HNLKTJ3LMF71:00000002 [WRN] Failed to determine the https port for redirect. (ca76cc21)

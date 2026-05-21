@@ -1,0 +1,177 @@
+# ==============================================================================
+# PROFESSIONAL .GITIGNORE FOR .NET API PROJECTS
+# ==============================================================================
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto-generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Cc]ontentFiles/
+[Mm]atrices/
+
+# Visual Studio 2015/2017/2019/2022 cache and settings
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Mm]odules/
+
+# NUnit
+/*.VisualState.xml
+
+# SonarQube
+.sonarqube/
+
+# Omnisharp
+.omnisharp/
+
+# JetBrains Rider & IntelliJ IDEA
+.idea/
+*.sln.iml
+
+# VS Code settings & extensions
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Crash Logs
+crashLogs/
+
+# Package management formats
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vsscc
+modules.order
+modules.builtin
+Module.symvers
+*.d
+
+# Output of MSBuild compile
+*.olb
+*.obj
+*.pdb
+*.ilk
+*.nosync
+*.idb
+*.hpj
+*.pre
+*.gch
+
+# Backup and recovery files from Visual Studio
+*_Grid.xml
+*_Report.xml
+*.backup
+*.vstmw
+*.mac
+*.mduser
+*.mvw
+*.pvb
+
+# SQL Server local database files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence Projects
+*.rdl.data
+*.sbdf
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Enterprise Application Project files
+*.deployproj
+
+# SECRETS AND CONFIGURATIONS (CRITICAL FOR API)
+# Loại bỏ các file chứa thông tin nhạy cảm để tránh lộ Connection String / Token
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+.secrets/
+secrets.xml
+
+# Dotenv files (Nếu dùng thư mục môi trường)
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Directory-level settings
+.settings/
+
+# NuGet Packages
+*.nupkg
+# Không commit thư mục packages vì có thể khôi phục qua Package Restore
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Package restore artifacts
+node_modules/
+jspm_packages/
+
+# Serverless framework
+.serverless/
+
+# Source Control GitLab / GitHub / CI/CD caches
+.cache/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

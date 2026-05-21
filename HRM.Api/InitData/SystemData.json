@@ -1,0 +1,666 @@
+﻿{
+  "Funcfions": [
+    {
+      "Id": "F0001",
+      "Code": "F0001",
+      "Name": "Thêm mới menu",
+      "Index": "1"
+    },
+    {
+      "Id": "F0002",
+      "Code": "F0002",
+      "Name": "Chỉnh sửa menu",
+      "Index": "2"
+    },
+    {
+      "Id": "F0003",
+      "Code": "F0003",
+      "Name": "Xóa menu",
+      "Index": "3"
+    },
+    {
+      "Id": "F0004",
+      "Code": "F0004",
+      "Name": "Ẩn hiện menu",
+      "Index": "4"
+    },
+    {
+      "Id": "F0005",
+      "Code": "F0005",
+      "Name": "Xem menu",
+      "Index": "5"
+    },
+
+    {
+      "Id": "F0011",
+      "Code": "F0011",
+      "Name": "Thêm mới chức năng",
+      "Index": "1"
+    },
+    {
+      "Id": "F0012",
+      "Code": "F0012",
+      "Name": "Cập nhật chức năng",
+      "Index": "2"
+    },
+    {
+      "Id": "F0013",
+      "Code": "F0013",
+      "Name": "Xóa chức năng",
+      "Index": "3"
+    },
+
+
+    {
+      "Id": "F0101",
+      "Code": "F0101",
+      "Name": "Thêm mới tài khoản",
+      "Index": "1"
+    },
+    {
+      "Id": "F0102",
+      "Code": "F0102",
+      "Name": "Chỉnh sửa tài khoản",
+      "Index": "2"
+    },
+    {
+      "Id": "F0103",
+      "Code": "F0103",
+      "Name": "Xóa tài khoản",
+      "Index": "3"
+    },
+    {
+      "Id": "F0104",
+      "Code": "F0104",
+      "Name": "Xem thông tin tài khoản",
+      "Index": "4"
+    },
+    {
+      "Id": "F0105",
+      "Code": "F0105",
+      "Name": "Đặt lại mật khẩu",
+      "Index": "5"
+    },
+    {
+      "Id": "F0106",
+      "Code": "F0106",
+      "Name": "Đổi trạng thái tài khoản",
+      "Index": "6"
+    },
+
+    {
+      "Id": "F0111",
+      "Code": "F0111",
+      "Name": "Thêm mới nhóm",
+      "Index": "1"
+    },
+    {
+      "Id": "F0112",
+      "Code": "F0112",
+      "Name": "Chỉnh sửa nhóm  người dùng",
+      "Index": "2"
+    },
+    {
+      "Id": "F0113",
+      "Code": "F0113",
+      "Name": "Xóa nhóm người dùng",
+      "Index": "3"
+    },
+    {
+      "Id": "F0114",
+      "Code": "F0114",
+      "Name": "Xem danh sách nhóm người dùng",
+      "Index": "4"
+    },
+
+    {
+      "Id": "F0121",
+      "Code": "F0121",
+      "Name": "Thêm mới danh mục",
+      "Index": "1"
+    },
+    {
+      "Id": "F0122",
+      "Code": "F0122",
+      "Name": "Chỉnh sửa danh mục",
+      "Index": "2"
+    },
+    {
+      "Id": "F0123",
+      "Code": "F0123",
+      "Name": "Xóa danh mục",
+      "Index": "3"
+    },
+
+    {
+      "Id": "F0131",
+      "Code": "F0131",
+      "Name": "Sửa biểu mẫu",
+      "Index": "2"
+    },
+    {
+      "Id": "F0132",
+      "Code": "F0132",
+      "Name": "Thêm biểu mẫu",
+      "Index": "3"
+    },
+
+    {
+      "Id": "F0141",
+      "Code": "F0141",
+      "Name": "Cấu hình giới thiệu",
+      "Index": "1"
+    },
+
+    {
+      "Id": "F0151",
+      "Code": "F0151",
+      "Name": "Xem lịch sử thao tác",
+      "Index": "1"
+    },
+
+    {
+      "Id": "F0161",
+      "Code": "F0161",
+      "Name": "Thêm/sửa thông tin cấu hình giao diện",
+      "Index": "1"
+    },
+    {
+      "Id": "F0162",
+      "Code": "F0162",
+      "Name": "Xem thông tin cấu hình giao diện",
+      "Index": "2"
+    },
+
+    {
+      "Id": "F0171",
+      "Code": "F0171",
+      "Name": "Xem phân quyền",
+      "Index": "1"
+    },
+    {
+      "Id": "F0172",
+      "Code": "F0172",
+      "Name": "Bỏ sử dụng quyền của người dùng",
+      "Index": "2"
+    },
+
+    {
+      "Id": "F2001",
+      "Code": "F2001",
+      "Name": "Xem loại ca",
+      "Index": "1"
+    },
+    {
+      "Id": "F2002",
+      "Code": "F2002",
+      "Name": "Xem loại công",
+      "Index": "2"
+    },
+    {
+      "Id": "F2003",
+      "Code": "F2003",
+      "Name": "Xem bảng công",
+      "Index": "3"
+    },
+    {
+      "Id": "F2004",
+      "Code": "F2004",
+      "Name": "Xem bảng lương",
+      "Index": "4"
+    }
+
+  ],
+
+  "AutoFuncfions": [
+    {
+      "Id": "FA001",
+      "Code": "FA001",
+      "Name": "Thêm mới mới dữ liệu",
+      "Index": "1"
+    },
+    {
+      "Id": "FA002",
+      "Code": "FA002",
+      "Name": "Chỉnh sửa dữ liệu",
+      "Index": "2"
+    },
+    {
+      "Id": "FA003",
+      "Code": "FA003",
+      "Name": "Xóa dữ liệu",
+      "Index": "3"
+    },
+    {
+      "Id": "FA004",
+      "Code": "FA004",
+      "Name": "Xem chi tiết",
+      "Index": "4"
+    },
+    {
+      "Id": "FA005",
+      "Code": "FA005",
+      "Name": "Xuất dữ liệu",
+      "Index": "5"
+    },
+    {
+      "Id": "FA006",
+      "Code": "FA006",
+      "Name": "Nhập dữ liệu",
+      "Index": "6"
+    }
+
+  ],
+
+  "Menus": [
+    {
+      "Id": "M01",
+      "TitleDefault": "Cấu hình menu",
+      "TitleKeyTranslate": "Menu.MenuSystem",
+      "Icon": "fas fa-th-list",
+      "Url": "/system-config/quan-ly-menu",
+      "ParentId": "",
+      "IsDisable": "TRUE",
+      "Index": "0",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M02",
+      "TitleDefault": "Quản trị hệ thống",
+      "TitleKeyTranslate": "Menu.SystemManagement.Title",
+      "Icon": "HRM-icon-setting",
+      "Url": "",
+      "ParentId": "",
+      "IsDisable": "FALSE",
+      "Index": "1",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M0201",
+      "TitleDefault": "Tài khoản",
+      "TitleKeyTranslate": "Menu.SystemManagement.Account.Title",
+      "Icon": "HRM-icon-user",
+      "Url": "",
+      "ParentId": "M02",
+      "IsDisable": "FALSE",
+      "Index": "2",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M020101",
+      "TitleDefault": "Người dùng",
+      "TitleKeyTranslate": "Menu.SystemManagement.Account.User",
+      "Icon": "HRM-icon-user-login",
+      "Url": "/nguoi-dung/tai-khoan",
+      "ParentId": "M0201",
+      "IsDisable": "FALSE",
+      "Index": "0",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M020102",
+      "TitleDefault": "Nhóm người dùng",
+      "TitleKeyTranslate": "Menu.SystemManagement.Account.GroupUser",
+      "Icon": "HRM-icon-group-user",
+      "Url": "/nguoi-dung/nhom-nguoi-dung",
+      "ParentId": "M0201",
+      "IsDisable": "FALSE",
+      "Index": "1",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M020103",
+      "TitleDefault": "Lịch sử thao tác",
+      "TitleKeyTranslate": "Menu.SystemManagement.Account.History",
+      "Icon": "HRM-icon-history",
+      "Url": "/nguoi-dung/tra-cuu-lich-su",
+      "ParentId": "M0201",
+      "IsDisable": "FALSE",
+      "Index": "2",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M020104",
+      "TitleDefault": "Xem phân quyền",
+      "TitleKeyTranslate": "Menu.SystemManagement.Account.Permission",
+      "Icon": "fas fa-tasks",
+      "Url": "/nguoi-dung/quan-ly-phan-quyen",
+      "ParentId": "M0201",
+      "IsDisable": "FALSE",
+      "Index": "3",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M0202",
+      "TitleDefault": "Quản lý danh mục",
+      "TitleKeyTranslate": "Menu.SystemManagement.Category",
+      "Icon": "HRM-icon-category",
+      "Url": "/danh-muc/tat-ca-danh-muc",
+      "ParentId": "M02",
+      "IsDisable": "FALSE",
+      "Index": "4",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M0203",
+      "TitleDefault": "Quản lý biểu mẫu",
+      "TitleKeyTranslate": "Menu.SystemManagement.Template",
+      "Icon": "HRM-icon-file",
+      "Url": "/bieu-mau",
+      "ParentId": "M02",
+      "IsDisable": "FALSE",
+      "Index": "1",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M0204",
+      "TitleDefault": "Cấu hình giới thiệu",
+      "TitleKeyTranslate": "Menu.SystemManagement.AboutConfig",
+      "Icon": "HRM-icon-grobal",
+      "Url": "/about/setup-about",
+      "ParentId": "M02",
+      "IsDisable": "TRUE",
+      "Index": "2",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M03",
+      "TitleDefault": "Giới thiệu",
+      "TitleKeyTranslate": "Menu.About",
+      "Icon": "HRM-icon-grobal",
+      "Url": "/about/gioi-thieu",
+      "ParentId": "",
+      "IsDisable": "TRUE",
+      "Index": "2",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M04",
+      "TitleDefault": "Cấu hình chức năng",
+      "TitleKeyTranslate": "Menu.FunctionAuto",
+      "Icon": "far fa-object-group",
+      "Url": "/system-config/function-config",
+      "ParentId": "",
+      "IsDisable": "TRUE",
+      "Index": "3",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M05",
+      "TitleDefault": "Cấu hình hệ thống",
+      "TitleKeyTranslate": "Menu.Interface",
+      "Icon": "fas fa-palette",
+      "Url": "/system-config/cau-hinh-he-thong",
+      "ParentId": "",
+      "IsDisable": "TRUE",
+      "Index": "1",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+
+    {
+      "Id": "M10",
+      "TitleDefault": "Trang chủ",
+      "TitleKeyTranslate": "",
+      "Icon": "HRM-icon-home",
+      "Url": "/trang-chu",
+      "ParentId": "",
+      "IsDisable": "FALSE",
+      "Index": "0",
+      "IsDefaultMenu": "TRUE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M30",
+      "TitleDefault": "Chấm công - lương",
+      "TitleKeyTranslate": "",
+      "Icon": "fas fa-calendar-check",
+      "Url": "",
+      "ParentId": "",
+      "IsDisable": "FALSE",
+      "Index": "5",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M3001",
+      "TitleDefault": "Loại ca",
+      "TitleKeyTranslate": "",
+      "Icon": "fas fa-clock",
+      "Url": "/control/manage/loai-ca",
+      "ParentId": "M30",
+      "IsDisable": "FALSE",
+      "Index": "1",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M3002",
+      "TitleDefault": "Loại công",
+      "TitleKeyTranslate": "",
+      "Icon": "fas fa-briefcase",
+      "Url": "/control/manage/loai-cong",
+      "ParentId": "M30",
+      "IsDisable": "FALSE",
+      "Index": "2",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M3003",
+      "TitleDefault": "Bảng công",
+      "TitleKeyTranslate": "",
+      "Icon": "fas fa-calendar-alt",
+      "Url": "/control/manage/bang-cong",
+      "ParentId": "M30",
+      "IsDisable": "FALSE",
+      "Index": "3",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    },
+    {
+      "Id": "M3004",
+      "TitleDefault": "Bảng lương",
+      "TitleKeyTranslate": "",
+      "Icon": "fas fa-money-bill-wave",
+      "Url": "/control/manage/bang-luong",
+      "ParentId": "M30",
+      "IsDisable": "FALSE",
+      "Index": "4",
+      "IsDefaultMenu": "FALSE",
+      "FunctionAuto": "FALSE"
+    }
+
+  ],
+
+  "MenuPermissions": [
+    {
+      "Id": "MF0001",
+      "MenuSystemId": "M01",
+      "FunctionId": "F0001"
+    },
+    {
+      "Id": "MF0002",
+      "MenuSystemId": "M01",
+      "FunctionId": "F0002"
+    },
+    {
+      "Id": "MF0003",
+      "MenuSystemId": "M01",
+      "FunctionId": "F0003"
+    },
+    {
+      "Id": "MF0004",
+      "MenuSystemId": "M01",
+      "FunctionId": "F0004"
+    },
+    {
+      "Id": "MF0005",
+      "MenuSystemId": "M01",
+      "FunctionId": "F0005"
+    },
+
+    {
+      "Id": "MF0011",
+      "MenuSystemId": "M04",
+      "FunctionId": "F0011"
+    },
+    {
+      "Id": "MF0012",
+      "MenuSystemId": "M04",
+      "FunctionId": "F0012"
+    },
+    {
+      "Id": "MF0013",
+      "MenuSystemId": "M04",
+      "FunctionId": "F0013"
+    },
+
+
+    {
+      "Id": "MF0101",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0101"
+    },
+    {
+      "Id": "MF0102",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0102"
+    },
+    {
+      "Id": "MF0103",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0103"
+    },
+    {
+      "Id": "MF0104",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0104"
+    },
+    {
+      "Id": "MF0105",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0105"
+    },
+    {
+      "Id": "MF0106",
+      "MenuSystemId": "M020101",
+      "FunctionId": "F0106"
+    },
+
+    {
+      "Id": "MF0111",
+      "MenuSystemId": "M020102",
+      "FunctionId": "F0111"
+    },
+    {
+      "Id": "MF0112",
+      "MenuSystemId": "M020102",
+      "FunctionId": "F0112"
+    },
+    {
+      "Id": "MF0113",
+      "MenuSystemId": "M020102",
+      "FunctionId": "F0113"
+    },
+    {
+      "Id": "MF0114",
+      "MenuSystemId": "M020102",
+      "FunctionId": "F0114"
+    },
+
+    {
+      "Id": "MF0121",
+      "MenuSystemId": "M0202",
+      "FunctionId": "F0121"
+    },
+    {
+      "Id": "MF0122",
+      "MenuSystemId": "M0202",
+      "FunctionId": "F0122"
+    },
+    {
+      "Id": "MF0123",
+      "MenuSystemId": "M0202",
+      "FunctionId": "F0123"
+    },
+
+    {
+      "Id": "MF0131",
+      "MenuSystemId": "M0203",
+      "FunctionId": "F0131"
+    },
+    {
+      "Id": "MF0132",
+      "MenuSystemId": "M0203",
+      "FunctionId": "F0132"
+    },
+
+    {
+      "Id": "MF0141",
+      "MenuSystemId": "M0204",
+      "FunctionId": "F0141"
+    },
+
+    {
+      "Id": "MF0151",
+      "MenuSystemId": "M020103",
+      "FunctionId": "F0151"
+    },
+
+    {
+      "Id": "MF0161",
+      "MenuSystemId": "M05",
+      "FunctionId": "F0161"
+    },
+    {
+      "Id": "MF0162",
+      "MenuSystemId": "M05",
+      "FunctionId": "F0162"
+    },
+
+    {
+      "Id": "MF0171",
+      "MenuSystemId": "M020104",
+      "FunctionId": "F0171"
+    },
+    {
+      "Id": "MF0172",
+      "MenuSystemId": "M020104",
+      "FunctionId": "F0172"
+    },
+    {
+      "Id": "MF2001",
+      "MenuSystemId": "M3001",
+      "FunctionId": "F2001"
+    },
+    {
+      "Id": "MF2002",
+      "MenuSystemId": "M3002",
+      "FunctionId": "F2002"
+    },
+    {
+      "Id": "MF2003",
+      "MenuSystemId": "M3003",
+      "FunctionId": "F2003"
+    },
+    {
+      "Id": "MF2004",
+      "MenuSystemId": "M3004",
+      "FunctionId": "F2004"
+    }
+
+  ]
+}
