@@ -1,0 +1,6 @@
+2026-06-20T09:38:11.2675200+07:00  [INF] Starting Detection version "0.0.0.0" (9fee71dd)
+2026-06-20T09:38:11.8109290+07:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2026-06-20T09:38:11.8157630+07:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2026-06-20T09:38:11.8341010+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-06-20T09:38:11.8434770+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2026-06-20T09:38:11.8497240+07:00  [INF] Content root path: "/Users/mac/Downloads/do-an-2024-main/source_code/api/HRM.Api" (b5d60022)
